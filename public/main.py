@@ -58,7 +58,7 @@ for surahNo in range(1, 115):
     surahNameTranslation = surahInfo["surahNameMeaning"]
     revelationPlace = surahInfo["revelationPlace"]
     verseAudio = "https://quranaudio.pages.dev/{num}/{surahNo}_{ayahNo}.mp3"
-    chapterAudio = "https://github.com/The-Quran-Project/Quran-Audio/raw/refs/heads/main/Data/{}/{}.mp3"
+    chapterAudio = "https://github.com/falah-club/Quran-Audio/raw/refs/heads/main/Data/{}/{}.mp3"
 
     # Make the folder
     makeDir(f"api/{surahNo}")
